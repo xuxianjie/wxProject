@@ -1,0 +1,49 @@
+/* pages/goods/goods.wxss */
+swiper{
+    height:500rpx;
+    margin-bottom: 25rpx;
+}
+.slide-image{
+  display: block;
+    margin: 0 auto;
+    width:500rpx;
+    height:100%;
+}
+view{
+  padding-left: 20rpx;
+}
+.title{
+  width: 90%;
+  height: 120rpx;
+  font-size: 40rpx;
+  color:#333;
+  margin: 0 auto;
+  border: 1rpx solid #eee;
+  box-shadow: 0 10rpx 10rpx #ccc;
+  margin-bottom: 40rpx;
+}
+.sell,
+.market{
+  font-size: 32rpx;
+  color: #88443a;
+}
+.market{
+  text-decoration: line-through;
+  color: #8f8fa9;
+  font-size: 28rpx;
+}
+
+.stock,.buy{
+  margin: 20rpx 0;
+  font-size: 32rpx;
+  color: #8f8fa9;
+}
+.buy input{
+  display: inline-block;
+}
+.btn{
+  margin-top: 18rpx;
+}
+.btn button{
+  margin-right: 20rpx;
+}

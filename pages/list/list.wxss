@@ -1,0 +1,90 @@
+/* pages/list/list.wxss */
+.cells{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.cells .item{
+  flex: 1;
+  display: flex;
+  width: 100%;
+  height: 200rpx;
+  margin: 10rpx;
+}
+.cells .item .image{
+  width: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.cells .item .image image{
+  width: 100%;
+  height:100%;
+}
+.cells .item .message{
+  flex: 5;
+  padding-left:30rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 28rpx;
+}
+.cells .item .message text:nth-last-of-type(0){
+  font-size: 30rpx;
+  color: #333;
+}
+.cells .item .message text:nth-last-of-type(1),
+.cells .item .message text:nth-last-of-type(2),
+.cells .item .message text:nth-last-of-type(3){
+  font-size: 26rpx;
+  margin-top: 5rpx;
+  color: #444;
+}
+
+.cells .item .score{
+  flex: 1;
+}
+
+.reading{
+    background:#e0e0e0;
+    height:80rpx;
+    width:100%;
+    font-size: 35rpx;
+    margin:0 auto;
+
+}
+.reading text{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 20rpx;
+}
+.search{
+  display: flex;
+  height: 60rpx;
+  width: 100%;
+  background: #e0e0e0;
+  font-size: 32rpx;
+  align-items:  center;
+  justify-content: center
+}
+.search input{
+  display: block;
+  width: 90%;
+  height: 80%;
+  padding: 0 30rpx ;
+  background: #fff;
+  border: 3rpx solid #e0e0e0;
+  border-radius: 24rpx;
+  box-sizing: border-box;
+}
+.score text:first-of-type{
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  color:  rgb(158, 40, 40);
+}
+.score text:nth-last-of-type(1){
+  color: rgb(182, 47, 47);
+  font-size: 26rpx;
+}

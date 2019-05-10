@@ -1,0 +1,17 @@
+<view class="headProfile">
+  <image src="/images/avatar.png"></image>
+  <text>name</text>
+</view>
+
+<view class='message'>
+  关于本地生活
+  <image src='/images/arrow.png' class="arrow"></image>
+</view>
+
+<view class="common">
+  <view>常见问题 <image src='/images/arrow.png' class="arrow"></image></view>
+  <view>使用条款<image src='/images/arrow.png' class="arrow"></image></view>
+  <view>隐私权政策<image src='/images/arrow.png' class="arrow"></image></view>
+</view>
+
+<view class="setting">设置 <image src='/images/arrow.png' class="arrow"></image></view>

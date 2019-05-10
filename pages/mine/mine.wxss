@@ -1,0 +1,70 @@
+/* pages/mine/mine.wxss */
+view{
+  background: #fff;
+}
+page{
+  background: #eee;
+}
+.headProfile{
+  height:388rpx;
+  width: 100%;
+  background: #526a8f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headProfile image{
+  width: 150rpx;
+  height: 150rpx;
+  border: 10rpx solid rgba(255,255,255,0.5);
+  border-radius: 50%;
+
+}
+
+.headProfile text{
+  font-size: 36rpx;
+  margin-top: 20rpx;
+  color:#eee;
+}
+
+.message,
+.setting{
+  height: 80rpx;
+  line-height: 80rpx;
+  border-top:16rpx solid #eee;  
+  border-bottom:16rpx solid #eee;  
+  padding-left: 40rpx;
+  color: #333;
+  font-size: 36rpx;
+}
+
+.common{
+  width: 100%;
+  border-bottom: 16rpx solid #eee;
+}
+.common view {
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-left: 40rpx;
+  color: #333;
+  font-size: 36rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.common view:last-of-type{
+  border: none;
+}
+
+.setting{
+  border:none; 
+}
+view{
+  position: relative;
+}
+view .arrow{
+  position: absolute;
+  top: 25rpx;
+  right: 20rpx;
+  width: 20rpx;
+  height: 30rpx;
+}

@@ -1,0 +1,69 @@
+/* pages/store/store.wxss */
+.box{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #e0e0e0;
+  justify-content: space-around;
+}
+.box .item{
+  width: 49%;
+  height: 600rpx;
+  display: flex;
+  flex-direction: column; 
+  border: 2rpx solid #ccc;
+  box-shadow: 0 0 5rpx #ccc;
+  box-sizing: border-box;
+  margin: 10rpx 0 10rpx;
+  background: #fff;
+  padding: 0 10rpx;
+}
+.box .item image{
+  width: 100%;
+  height: 360rpx;
+}
+.box .item text{
+  padding: 0 20rpx 10rpx;
+}
+.box .item .title{
+  font-size: 28rpx;
+  color: #8f8f94;
+
+}
+.box .item .title .zhaiyao{
+  font-size: 26rpx;
+  color: rgb(206, 202, 202);
+  white-space: nowrap;  
+  text-overflow:ellipsis; 
+  overflow:hidden;
+}
+.box .item .sell{
+  color: rgb(243, 64, 19);
+  font-size: 30rpx;
+  padding: 0;
+  padding-right: 30rpx;
+}
+.box .item .market{
+  text-decoration: line-through;
+  font-size: 28rpx;
+  padding: 0;
+  color:#8f8f94;
+}
+.box .item text:last-of-type{
+  color:#8f8f94;
+  font-size: 30rpx;
+}
+
+.reading{
+    background:#e0e0e0;
+    height:80rpx;
+    width:100%;
+    font-size: 35rpx;
+    margin:0 auto;
+}
+.reading text{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 20rpx;
+}

@@ -1,0 +1,23 @@
+<block wx:for = "{{shops}}" wx:key="id">
+<view class='shop' >
+  <icon type="{{item.selected?'success':'circle'}}" color='red' size = "25" bindtap='traggleSelected' data-index ="{{index}}"></icon>
+  <view class='image'>
+    <image src="{{item.thumb_path}}"></image>
+  </view>
+  <view class="info">
+    <view class='title'>{{item.title}}</view>
+    <view>购买数量:{{item.count}}</view>
+    <view class='price'>单价: ￥{{item.sell_price}}</view>
+  </view>
+  <button type='warn' bindtap='removeShop' data-index ="{{index}}">
+    删除
+  </button>
+</view>
+</block>
+
+
+<view class='account'>
+  <view><icon type="{{allSelect?'success' :'circle'}}" color='red' size='25' bindtap='traggleAll'></icon> 全选</view>
+  <view class='total'>合计: ￥{{total}}</view>
+  <button type='' size='mini'>结算{{totalCount}}</button>
+</view>

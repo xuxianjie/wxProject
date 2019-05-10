@@ -1,0 +1,34 @@
+<swiper 
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}">
+    <block wx:for="{{swiperImages}}">
+  
+        <swiper-item>
+            <image src="{{item.image}}" class="slide-image" mode='aspectFill' />
+        </swiper-item>
+        
+    </block>
+</swiper >
+
+<view class="girds" >
+    <navigator url="/pages/list/list?cat={{item.id}}" class="item" wx:for="{{categories}}">
+        <image src="{{item.icon}}" />
+        <text>{{item.name}}</text>
+    </navigator>
+</view>
+
+<view class="biaoqian">
+    <view class="shop">
+        <navigator url="/" redirect hover-class="className">
+            <image src="/images/link-01.png" />
+        </navigator>
+    </view>
+      <view class="friend">
+           <navigator url="/" redirect hover-class="className">
+            <image src="/images/link-02.png" />
+        </navigator>
+    </view>
+</view>
+

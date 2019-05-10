@@ -1,0 +1,62 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.6",
+	"appid": "wx8fb0928c48e517f1",
+	"projectname": "xuxianjie's%20demo",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "列表",
+					"pathName": "pages/list/list",
+					"query": "cat=item.id",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "列表",
+					"pathName": "pages/goods/goods",
+					"query": "id=87",
+					"scene": null
+				}
+			]
+		}
+	}
+}

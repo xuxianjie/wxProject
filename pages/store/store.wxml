@@ -1,0 +1,17 @@
+<view class="box">
+  <navigator class="item" wx:for="{{list}}" url="/pages/goods/goods?id={{item.id}}">
+    <view class='image'><image src="{{item.img_url}}"></image></view>
+    <text class='title'>{{item.title}} </text>
+    <text>
+      <text class='sell'>￥{{item.sell_price}}</text> 
+      <text class='market'>￥{{item.market_price}}</text>
+    </text>
+    <text style='color:#85a5b7'>热卖中 剩余<text style='color:#e074f1'>{{item.stock_quantity}}</text> </text>
+ </navigator>
+  <view class="reading" wx:if="{{hasmore}}">
+            <text>准备加载中...</text>
+        </view>
+         <view class="reading" wx:else>
+            <text>大哥,全都加载完了!</text>
+  </view>
+</view>

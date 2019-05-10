@@ -1,0 +1,29 @@
+<view class="search">
+    <input type="text" placeholder="Search.." auto-focus bindconfirm='freshSearch'  />
+</view>
+
+<view class="cells">
+  <navigator class="item" wx:for="{{shops}}" wx:key="id" url='/pages/detail/detail?item={{item.id}}'>
+    <view class='image'>
+      <image src="{{item.images[0]}}"   />
+    </view>
+    <view class="message">
+        <text>{{item.name}}</text>
+        <text>电话: {{item.phone}}</text>
+        <text>地址: {{item.address}}</text>
+        <text>营业时间: {{item.businessHours}}</text>
+    </view>
+    <view class="score">
+        <text>好评率 </text>
+        <text>{{item.score}}%</text>
+    </view>
+  </navigator>
+    
+        <view class="reading" wx:if="{{hasmore}}">
+            <text>准备加载中...</text>
+        </view>
+         <view class="reading" wx:else>
+            <text>大哥,全都加载完了!</text>
+        </view>
+
+</view>
