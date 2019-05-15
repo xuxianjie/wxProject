@@ -133,3 +133,36 @@
                 }
   + 页面美观优化
   + 还有部分为整理
+## 效果图
+### 首页 Home页面
+ ![image](https://raw.githubusercontent.com/xuxianjie/wxProject/master/photo/%E9%A6%96%E9%A1%B5Home.png)
+### 商铺列表 List页面
+  + 搜索
+  
+ ![image](https://raw.githubusercontent.com/xuxianjie/wxProject/master/photo/%E6%90%9C%E7%B4%A2.gif)
+  + 下拉刷新
+  
+ ![image](https://raw.githubusercontent.com/xuxianjie/wxProject/master/photo/%E4%B8%8B%E6%8B%89%E5%88%B7%E6%96%B0.gif)
+  + 商品列表
+  
+ ![image](https://raw.githubusercontent.com/xuxianjie/wxProject/master/photo/%E5%95%86%E5%93%81%E5%88%97%E8%A1%A8.png)
+  
+
+### 商铺信息及用户点评 detail页面
+ ![image](https://raw.githubusercontent.com/xuxianjie/wxProject/master/photo/%E5%95%86%E9%93%BA%E8%AF%A6%E6%83%85%E5%8F%8A%E8%AF%84%E8%AE%BA.png)
+  
+### 商城 store页面
+ ![image](https://raw.githubusercontent.com/xuxianjie/wxProject/master/photo/%E5%95%86%E5%9F%8E.png)
+
+### 商品详情 goods页面
+ ![image](https://raw.githubusercontent.com/xuxianjie/wxProject/master/photo/%E5%95%86%E5%93%81%E8%AF%A6%E6%83%85.png)
+### 购物车 car页面
+  + 加入购物车
+  
+ ![image](https://raw.githubusercontent.com/xuxianjie/wxProject/master/photo/%E5%8A%A0%E5%85%A5%E8%B4%AD%E7%89%A9%E8%BD%A6.gif)
+  + 购物车
+  
+ ![image](https://raw.githubusercontent.com/xuxianjie/wxProject/master/photo/%E8%B4%AD%E7%89%A9%E8%BD%A6%E9%A1%B5%E9%9D%A2.gif)
+  
+### 我的 mine页面
+ ![image](https://raw.githubusercontent.com/xuxianjie/wxProject/master/photo/%E6%88%91%E7%9A%84.png)
